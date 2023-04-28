@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page2</title>
+</head>
+<style>
+    p {text-align: center;
+        font-size: 30px;
+        font-family: Courier;
+        color: white;
+        padding: 50px 5px 5px 25px;}
+    a{text-decoration: none;
+      text-transform: capitalize;
+      font-size: 40px;
+      padding: 30px 40px 50px 40px;
+      border: 4px solid #de4b4b;
+      color: #fff;
+      position: relative;
+      overflow: hidden;}
+    a::before{content: '';
+              width: 100%;
+              height: 100%;
+              background-color: #de4b4b;
+              z-index: -1;
+              transform: rotate(-90deg);
+              transform-origin: bottom left;
+              position: absolute;
+              top: 0;
+              left: 0;
+              transition: transform 1s ease-out;}
+    a:hover::before{transform: rotate(0);}
+
+</style>
+<body bgcolor="#000000">
+<div style="text-align: left;"><a href="index.html" class="a1">home</a></div>
+
+
+
+
+<p>A web server is software and hardware that uses HTTP (Hypertext Transfer Protocol) and other protocols to respond<br>
+to client requests made over the World Wide Web. The main job of a web server is to display website content through<br>
+storing, processing and delivering webpages to users.</p>
+<div style="text-align: center;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/CIhalbnBgA4?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+</body>
+</html>

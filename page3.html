@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>page3</title>
+</head>
+<style>
+  h1 {text-align: center;
+      color: white;
+      padding: 50px 25px 30px 25px;}
+  p {text-align: center;
+     color: white;}
+  a{text-decoration: none;
+      text-transform: capitalize;
+      font-size: 40px;
+      padding: 60px 40px 40px 30px;
+      border: 4px solid #de4b4b;
+      color: #fff;
+      position: relative;
+      overflow: hidden;}
+    a::before{content: '';
+              width: 100%;
+              height: 100%;
+              background-color: #de4b4b;
+              z-index: -1;
+              transform: rotate(-90deg);
+              transform-origin: bottom left;
+              position: absolute;
+              top: 0;
+              left: 0;
+              transition: transform 1s ease-out;}
+    a:hover::before{transform: rotate(0);}
+
+</style>
+<body bgcolor="#000000">
+  <div style="text-align: left;">
+    <a href="index.html" class="a1">home</a>
+  </div>
+  <h1 style="font-family: Courier">What is HTTP (Hypertext Transfer Protocol)?</h1>
+  <p style="font-family: Courier">The Hypertext Transfer Protocol is an application protocol for distributed, collaborative, hypermedia information systems <br>
+    that allows users to communicate data on the World Wide Web.</p>
+  <h1 style="font-family: Courier">What is the purpose of HTTP?</h1>
+  <p style="font-family: Courier">HTTP was invented alongside HTML to create the first interactive, text-based web browser: the original World Wide Web. <br>
+    Today, the protocol remains one of the primary means of using the Internet.</p>
+  <h1 style="font-family: Courier">How does HTTP work?</h1>
+  <p style="font-family: Courier">As a request-response protocol, HTTP gives users a way to interact with web resources such as HTML files <br>
+    by transmitting hypertext messages between clients and servers. HTTP clients generally use Transmission Control Protocol (TCP) connections to communicate with servers.</p>
+  <div style="text-align: center;">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/wW2A5SZ3GkI?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  </div>
+</body>
+</html>
